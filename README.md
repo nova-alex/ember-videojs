@@ -1,27 +1,23 @@
-ember-videojs
-==============================================================================
+# ember-videojs
 
 Use [VideoJS](https://videojs.com/) HTML5 video player components in your Ember project.
 
 
-Compatibility
-------------------------------------------------------------------------------
+## Compatibility
 
-* Ember.js v2.18 or above
-* Ember CLI v2.13 or above
-* Node.js v8 or above
+* Ember.js v4.4 or above
+* Ember CLI v4.4 or above
+* Node.js v14 or above
 
 
-Installation
-------------------------------------------------------------------------------
+## Installation
 
 ```
 ember install ember-videojs
 ```
 
 
-Usage
-------------------------------------------------------------------------------
+## Usage
 
 ```handlebars
 {{videojs-player src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" poster="https://vjs.zencdn.net/v/oceans.png"}}
@@ -220,13 +216,11 @@ this.set("textTracks", [
 ]);
 ```
 
-Contributing
-------------------------------------------------------------------------------
+## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
 
-License
-------------------------------------------------------------------------------
+## License
 
 This project is licensed under the [MIT License](LICENSE.md).
